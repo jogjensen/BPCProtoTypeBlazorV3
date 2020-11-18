@@ -16,6 +16,7 @@ namespace BPCProtoTypeBlazorV3.Server.Controllers
     {
 
         //This is a github test
+        //This is a github test 2
         private static readonly string[] Summaries = new[]
         {
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
