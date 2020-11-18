@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30711.63
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BPCProtoTypeBlazorV3.Server", "BPCProtoTypeBlazorV3\Server\BPCProtoTypeBlazorV3.Server.csproj", "{2EF24CB7-D04D-43B7-BB16-E7B4F2AFC3BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BPCProtoTypeBlazorV3.Server", "BPCProtoTypeBlazorV3\Server\BPCProtoTypeBlazorV3.Server.csproj", "{2EF24CB7-D04D-43B7-BB16-E7B4F2AFC3BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BPCProtoTypeBlazorV3.Client", "BPCProtoTypeBlazorV3\Client\BPCProtoTypeBlazorV3.Client.csproj", "{49E93F68-3760-4DB4-B914-BEF263200CAC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BPCProtoTypeBlazorV3.Client", "BPCProtoTypeBlazorV3\Client\BPCProtoTypeBlazorV3.Client.csproj", "{49E93F68-3760-4DB4-B914-BEF263200CAC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BPCProtoTypeBlazorV3.Shared", "BPCProtoTypeBlazorV3\Shared\BPCProtoTypeBlazorV3.Shared.csproj", "{FC3C04F2-4393-4220-ABA8-0817543C28DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BPCProtoTypeBlazorV3.Shared", "BPCProtoTypeBlazorV3\Shared\BPCProtoTypeBlazorV3.Shared.csproj", "{FC3C04F2-4393-4220-ABA8-0817543C28DC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
