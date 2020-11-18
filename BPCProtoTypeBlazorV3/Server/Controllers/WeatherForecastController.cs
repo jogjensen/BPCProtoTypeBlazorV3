@@ -14,6 +14,8 @@ namespace BPCProtoTypeBlazorV3.Server.Controllers
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
     {
+
+        //This is a github test
         private static readonly string[] Summaries = new[]
         {
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
