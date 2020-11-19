@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
+using System.Data.SqlClient;
 using BPCProtoTypeBlazorV3.Shared.Model;
-using Microsoft.Data.SqlClient;
 
-namespace BPCProtoTypeBlazorV3.Server
+namespace BPCProtoTypeBlazorV3.Server.Managers
 {
     public class BookingManager
     {

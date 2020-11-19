@@ -33,6 +33,8 @@ namespace BPCProtoTypeBlazorV3.Server
                 options.UseSqlServer(
                     Configuration.GetConnectionString("DefaultConnection")));
 
+            services.AddCors();
+
             services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
 
@@ -44,6 +46,10 @@ namespace BPCProtoTypeBlazorV3.Server
 
             services.AddControllersWithViews();
             services.AddRazorPages();
+
+           
+
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -67,6 +73,10 @@ namespace BPCProtoTypeBlazorV3.Server
             app.UseStaticFiles();
 
             app.UseRouting();
+
+            app.UseCors(
+                options => options.AllowAnyHeader().AllowAnyOrigin().AllowAnyMethod()
+            );
 
             app.UseIdentityServer();
             app.UseAuthentication();
